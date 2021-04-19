@@ -137,6 +137,7 @@ main{
   display: flex;
   background: #9767A9;
   height: 35vh;
+  justify-content: center;
 }
 
 .text-main{
@@ -153,11 +154,10 @@ main{
 }
 
 .paragraph-main{
-  display: flex;
   padding-top: 2rem;
   color: #FFFFFF;
   width: 45%;
-  justify-content: flex-end;
+  
 }
 
 .paragraph-motivacional{
@@ -168,16 +168,24 @@ main{
 .espelho{
   position: relative;
   bottom: 127px;
+  height: 161vh;
+  display: flex;
+  align-items: center;
 }
 
+.conteudo-espelho{
+  position: relative;
+  bottom: 229px;
+  left: 96px;
+}
 .no-espelho{
-  width: 400px;
+  width: 450px;
   padding: 1rem;
 }
 
 .text-espelho{
   background: #9767A9;
-  width: 26%;
+  width: 50%;
   position: relative;
   left: 46px;
   bottom: 64px;
@@ -192,6 +200,37 @@ main{
 
 .paragraph-espelho{
   width: 90%;
-  padding-top: 1rem;
   font-size: 14px;
 }
+
+.referencias{
+  position: relative;
+  right: 76px;
+  bottom: 124px;
+  height: 70vh;
+}
+
+.img-referencias{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.referencias-img{
+  width: 450px;
+}
+
+.text-referencias{
+  background: #9767A9;
+  width: 69%;
+  padding: 2rem;
+  position: relative;
+  bottom: 100px;
+  left: 74px;
+  color: #FFFFFF;
+}
+
+.paragraph-refe{
+  padding-top: 1rem;
+}
+
