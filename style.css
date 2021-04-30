@@ -1,5 +1,6 @@
 
 
+
 *{
   margin: 0;
   padding: 0;
@@ -23,7 +24,10 @@ width: 127px;
 padding: 1rem;
 }
 
+.menu-lateral{
+  display: none;
 
+}
 .list-header{
 display: flex;
 justify-content: space-around;
@@ -819,5 +823,305 @@ a{
 
   .title-main{
     width: 78%;
+  }
+
+  .fundo-roxo{
+    height: 35vh;
+  }
+}
+
+@media (max-width: 1024px){
+  .list-header{
+    padding: 0;
+  
+  }
+
+  .fundo-roxo{
+    height: 58vh;
+  }
+  .text-main{
+    width: 66%;
+  }
+
+  .title-main{
+    width: 60%;
+    font-size: 26px;
+  }
+
+  .title-espelho{
+    width: 70%;
+    font-size: 18px;
+  }
+
+  .title-refe{
+    font-size: 18px;
+  }
+
+  .title-detalhe{
+    font-size: 18px;
+    width: 65%;
+  }
+
+  .title-opn{
+    font-size: 18px;
+  }
+
+  .title-refe{
+    font-size: 18px;
+  }
+
+  .title-fases{
+    font-size: 18px;
+  }
+
+  .title-orgulho{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 985px){
+  .title-main{
+    width: 61%;
+  }
+
+  .barra-buscar{
+    display: none;
+  }
+
+  .list-header{
+    width: 64%;
+  }
+
+  .sub-title{
+    width: 50%;
+  }
+
+  .fundo-roxo{
+    height: 53vh;
+  }
+  .espelho{
+    flex-direction: column;
+  }
+
+  .conteudo-espelho{
+    position: relative;
+    top: 130px;
+  }
+
+  .text-espelho{
+   bottom: 0;
+   left: 33px;
+   top: 1rem;
+   height: 54vh;
+
+  }
+
+  .subtitle-cabeludo{
+    width: 73%;
+  }
+
+  .img-referencias{
+    justify-content: flex-end;
+  }
+
+  .refencias-img{
+   
+  }
+
+  .text-referencias{
+   bottom: 0;
+   right: 0;
+   top: 1rem;
+   height: 57vh;
+   left: 22px;
+  }
+
+  .detalhes{
+    position: relative;
+    top: 75px;
+
+  }
+
+  .conteudo-detalhes{
+    position: relative;
+    top: 214px;
+  }
+
+  .text-detalhe{
+    bottom: 0;
+    top: 14rem;
+    height: 47vh;
+  }
+
+  .opinioes{
+    position: relative;
+    top: 216px;
+  }
+
+  .conteudo-opinioes{
+    justify-content: flex-end;
+  }
+
+  .text-opinioes{
+    right: 0;
+    top: 1rem;
+    height: 53vh;
+    left: 25px;
+  }
+
+  .raizes{
+    position: relative;
+    top: 213px;
+  }
+
+  .conteudo-raizes{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 136px;
+  }
+
+  .text-raizes{
+    bottom: 0;
+    top: 9rem;
+    left: 18px;
+    height: 57vh;
+  }
+  
+
+
+  .conteudo-fases{
+   justify-content: flex-end;
+  }
+
+  .text-fases{
+    right: 0;
+    bottom: 0;
+    top: 1rem;
+    height: 47vh;
+  }
+
+  .orgulho{
+   position: relative;
+   top: 222px;
+  }
+
+  .conteudo-orgulho{
+    
+  }
+
+  .text-orgulho{
+    bottom: 0;
+    top: 1rem;
+    height: 57vh;
+  }
+
+  .caminho{
+    position: relative;
+    top: 508px;
+  }
+
+  .final-main{
+    position: relative;
+    top: 68vh;
+  }
+
+  footer{
+    position: relative;
+    top: 67vh;
+  }
+  
+}
+
+@media (max-width: 966px){
+  .title-espelho{
+    width: 75%;
+  }
+
+  .title-detalhe{
+    width: 70%;
+  }
+  .fundo-roxo{
+    display: block;
+  }
+  
+  .text-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 168px;
+    width: 100%;
+  }
+
+  .title-main{
+    width: 73%;
+  }
+
+  .paragraph-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .subtitle-cabeludo{
+    width: 59%;
+  }
+
+  .text-detalhe{
+    width: 64%;
+  }
+
+  .title-detalhe{
+    width: 52%;
+  }
+
+  .text-opinioes{
+    width: 67%;
+  }
+
+  .text-raizes{
+    width: 72%;
+    height: 47vh;
+  }
+
+  .text-orgulho{
+    width: 73%;
+    left: 26px;
+  }
+
+  .sub-title{
+  width: 59%;
+}
+
+.subtitle-cabeludo{
+  width: 62%;
+}
+
+.title-main{
+  width: 72%;
+}
+
+.opinioes{
+  top: 325px;
+}
+
+.raizes{
+  top: 221px;
+}
+
+.fases{
+  top: 384px;
+}
+
+.orgulho{
+  top: 415px;
+}
+  
+}
+
+@media (max-width: 918px){
+  .imgs-footer{
+    display: none;
   }
 }
